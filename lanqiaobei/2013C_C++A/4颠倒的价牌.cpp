@@ -49,9 +49,10 @@ int swap(int n) {
 }
 
 struct node{
-	int diff;
-	int old;
+	int diff; // 交换前后的差值，如diff = 8806 - 9088
+	int old; // 记录交前的数
 } i_200[100], i_800[100];
+// 记录该类型数的个数
 int l2=0, l8=0;
 
 void calc() {
