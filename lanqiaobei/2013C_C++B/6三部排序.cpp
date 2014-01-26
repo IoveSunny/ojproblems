@@ -82,10 +82,10 @@ void sort3p(int* x, int len)
         }
         else{
 
-			int l = x[right];
+			/*int l = x[right];
 			x[right] = x[p];
 			x[p] = l;
-			if(x[p] >= 0)
+			if(x[p] >= 0)*/
 				p++;
         }
     }
