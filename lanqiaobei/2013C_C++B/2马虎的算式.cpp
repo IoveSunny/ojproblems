@@ -47,6 +47,9 @@ int main(void) {
 			d = tj /10 % 10;
 			e = tj % 10;
 
+			if(a==0 || b==0 || c==0 || d==0 || e==0)
+				continue;
+
 			if(a==b || a==c || a==d || a==e ||
 				b==c || b==d || b==e || c==d || c==e || d==e
 			)
