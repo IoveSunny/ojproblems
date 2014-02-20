@@ -103,6 +103,8 @@ int bfs(Node begin) {
 			status.push(temp);
 		}
 	}
+
+	return -1;
 }
 
 int main(void) {
