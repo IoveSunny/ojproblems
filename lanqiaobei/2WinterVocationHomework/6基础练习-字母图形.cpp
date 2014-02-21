@@ -44,9 +44,11 @@ void dfs(int tn) {
 	}
 	printf("\n");
 
+	// 向右平移，留出ch[0]
 	for(int i=m-1; i>=0; i--) {
 		ch[i] = ch[i-1];
 	}
+	// 每次ch[0]的值都加1
 	ch[0] = (char)(tn + 'A');
 	
 	dfs(tn+1);
